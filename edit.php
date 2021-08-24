@@ -62,10 +62,17 @@
                     <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp" name="phone" value="<?= $attendee['contactnumber'] ?>">
                     <div id="phoneHelp" class="form-text">We'll never share your number with anyone else.</div>
                 </div>
+
                 
-                <div class="d-grid gap-2">
-                    <button type="submit" name="submit" class="btn btn-success btn-block">Save Changes</button>
-                </div> 
+                <div class="row">
+                    <div class="col-6 d-grid gap-2">
+                        <a href="viewrecords.php" class="btn btn-outline-info">Back to List</a>
+                    </div>
+                    <div class="col-6 d-grid gap-2">
+                        <button type="submit" name="submit" class="btn btn-success">Save Changes</button>   
+                    </div>
+                </div>
+                    
 
             </form>
 
