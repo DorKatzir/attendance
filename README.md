@@ -1,3 +1,3 @@
-# attendance
+# Attendance App
 PHP SQL CRUD Application Development Exercises.
-Code used for PHP Bootstrap5 Form.
+Registration Form Code used for PHP Bootstrap5.
